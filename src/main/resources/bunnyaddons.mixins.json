@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "com.cbwln.bunnyaddons.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"LightmapMixin",
+		"LocalPlayerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

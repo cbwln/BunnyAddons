@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "bunnyaddons",
+	"version": "${version}",
+	"name": "BunnyAddons",
+	"description": "A Hypixel SkyBlock mod.",
+	"authors": [
+		"cbwln"
+	],
+	"contact": {
+		"sources": "https://github.com/cbwln/BunnyAddons"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/bunnyaddons/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"client": [
+			{
+				"value": "com.cbwln.bunnyaddons.BunnyAddons",
+				"adapter": "kotlin"
+			}
+		]
+	},
+	"mixins": [
+		"bunnyaddons.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*",
+		"fabric-language-kotlin": "*"
+	}
+}
